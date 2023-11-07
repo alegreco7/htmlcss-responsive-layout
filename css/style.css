@@ -387,5 +387,39 @@ footer p:nth-of-type(2) {
 footer a:link , footer a:visited {
 
     color: rgb(139,133,223);
-}
+} 
 
+/* responsive tablet */
+
+@media screen and (min-width:588px) and (max-width: 997px) {
+    .cards {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .cards .card {
+        margin: 10px;
+    }
+    .cr-2 .card {
+        width: calc(100% / 3 );
+        
+    }
+    .cr-1 {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    .cr-1 .card.big {
+       width: 70%;
+       text-align: left;
+    }
+    .cr-1 .card {
+
+        width: 33.3333%;
+    }
+    .cr-2 {
+        
+        display: flex;
+        flex-direction: row;
+    }
+}
