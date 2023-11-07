@@ -423,3 +423,22 @@ footer a:link , footer a:visited {
         flex-direction: row;
     }
 }
+.test-c.card {
+    flex-direction: row;
+    text-align: left;
+    font-size: 0.8em;
+}
+.tes-i {
+    width: 100px;
+    height: 100px;
+
+}
+.test-c.card .tes-i{
+    width: 200px;
+    height:200px;
+    margin-right: 40px;
+}
+.card .tes-d p {
+    text-align:left;
+    color: white;
+}
