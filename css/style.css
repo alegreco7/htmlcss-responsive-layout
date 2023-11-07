@@ -16,3 +16,40 @@ header {
     top: 0;
     left: 0;
 }
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    line-height: 40px;
+    width: 100%;
+}
+.logo a:link , .logo a:visited{
+    color: white;
+    text-decoration: none;
+}
+.mn-1 {
+    font-size: 30px;
+}
+.nav-list {
+    display: none;
+}
+header ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+
+}
+header ul a {
+
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+}
+header ul a:last-child {
+
+    color: black;
+    background-color: white;
+    padding: 0px 20px;
+    border-radius: 20px;
+}
