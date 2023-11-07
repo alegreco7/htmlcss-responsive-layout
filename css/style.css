@@ -422,7 +422,6 @@ footer a:link , footer a:visited {
         display: flex;
         flex-direction: row;
     }
-}
 .test-c.card {
     flex-direction: row;
     text-align: left;
@@ -441,4 +440,28 @@ footer a:link , footer a:visited {
 .card .tes-d p {
     text-align:left;
     color: white;
+}
+.wu-in {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%
+}
+.wu-in .card {
+    width: calc( 100% / 2 - 20px );
+    margin: 10px;
+}
+.abt-in {
+    display: flex;
+}
+.abt-p {
+    width: 30%;
+}
+.abt-d {
+    width: 70%;
+}
+
+h1, h2, h3, h4 {
+    font-size: 1.5em;
+}
 }
