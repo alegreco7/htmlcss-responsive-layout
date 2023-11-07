@@ -104,3 +104,42 @@ header ul a:last-child {
     padding: 0px 20px;
     border-radius: 20px;
 }
+/*services*/
+#svc {
+
+    padding-top: 80px;
+}
+#svc h2 {
+
+    color: rgb(0,119,252);
+    text-align: center;
+}
+.card p {
+    text-align: center;
+}
+.card.big p {
+    text-align: start;
+}
+.cards-icon {
+    text-align: center;
+    color: rgb(0,119,252);
+  
+}
+.btn-link {
+    text-decoration: none;
+    color: white;
+}
+.card i {
+    font-size: 75px;
+    display: block;
+    margin: auto;
+}
+.card {
+    background-color: rgb(168,216,255);
+    margin: 20px 0px; 
+}
+.cards {
+    padding: 25px 0px;
+}
+
+
